@@ -1,7 +1,7 @@
 {
   "name": "html-preview",
   "description": "Trim down an HTML string to a specific length.",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "main": "dist/index.js",
   "scripts": {
     "build": "babel -d dist src",
