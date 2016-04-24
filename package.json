@@ -1,6 +1,6 @@
 {
   "name": "html-preview",
-  "description": "",
+  "description": "Trim down an HTML string to a specific length.",
   "version": "0.0.0",
   "main": "dist/index.js",
   "scripts": {
@@ -14,9 +14,12 @@
     "test:watch": "npm run test -- --watch"
   },
   "keywords": [
-    ""
+    "html",
+    "preview"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "html-parse-stringify": "^1.0.2"
+  },
   "devDependencies": {
     "ava": "^0.14.0",
     "babel-cli": "~6.6.0",
